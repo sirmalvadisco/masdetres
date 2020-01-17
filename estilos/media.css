@@ -15,7 +15,7 @@
 }
 
 	body > div.logo > img {
-		max-width: 275px;
+		max-width: 295px;
 }
 
 	.txt {
@@ -41,7 +41,7 @@
 }
 	
 	body > div.logo > img {
- 		padding-top: 6.2em;
+ 	/*	padding-top: 6.2em; */
 }
 	body > div.space {
 		padding-left: 12%!important;
@@ -76,11 +76,11 @@
 
 	body > div.logo > img {
 	    max-width: 300px;
- 		padding-top: 6.2em;
+ 	/*	padding-top: 6.2em; */
 }
 	
 	body > div.logo {
-		padding-top: 4.6em;
+	/*	padding-top: 4.6em; */
 }
 	body > div.space {
 		padding-left: 16%!important;

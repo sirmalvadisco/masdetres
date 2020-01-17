@@ -27,7 +27,8 @@ div#ff-compose {
 
 body > div.logo > img {
 	width:30%;
-	min-width: 194px;
+	height: auto;
+	min-width: 254px;
 	margin-right: auto!important;
 	margin-left: auto!important;
 } 
