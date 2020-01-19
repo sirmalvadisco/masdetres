@@ -103,3 +103,17 @@
 		height: 4em;
 	}
 }
+
+/* min-height */
+
+@media (max-height: 595px) and (max-width: 991px) { 
+	
+
+	
+	body > div.logo > img {
+		
+		display: none;
+	}
+
+	
+}

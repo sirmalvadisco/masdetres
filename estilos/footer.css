@@ -69,8 +69,13 @@ section .section-title {
 @media (max-width:767px){
 	#footer h5 {
     padding-left: 0;
+	padding-top: 1em;
+	text-transform: uppercase;
     border-left: transparent;
     padding-bottom: 0px;
     margin-bottom: 10px;
 }
+	#footer .social {
+		margin-top: 1em;
+	}
 }
