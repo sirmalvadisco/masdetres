@@ -108,12 +108,19 @@
 
 @media (max-height: 595px) and (max-width: 991px) { 
 	
-
+	div#aviso {
+		padding-top: 1%;
+		padding-bottom: 1%;
+}	
 	
+	div#aviso > p {
+		display: none;
+}
 	body > div.logo > img {
 		
 		display: none;
 	}
-
+	
+	
 	
 }
