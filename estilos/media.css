@@ -1,5 +1,11 @@
 
 @media screen and (min-width: 576px) { 
+
+	div#aviso {
+		padding-top: 2%;
+		padding-bottom: 1%;
+}	
+	
 	.txt {
 		font-size: 120%;
 		font-weight: 200!important;
@@ -30,10 +36,6 @@
 		padding-top: 1%;
 		padding-bottom: 1%;
 }	
-
-	div#aviso > p {
-		display: none;
-}
 	
 	body > div.logo > img {
  	/*	padding-top: 6.2em; */
@@ -64,10 +66,7 @@
 		padding-top: 1%;
 		padding-bottom: 1%;
 }
-	
-	div#aviso > p {
-		display: none;
-}
+
 
 	body > div.logo > img {
 	    max-width: 300px;
@@ -107,6 +106,16 @@
 
 
 @media (max-height: 595px) and (max-width: 991px) { 
+
+	nav > a.navshow {
+	display: none;
+}
+		
+	
+	nav > a.navhide {
+	display: block;
+}
+	
 	
 	body > div.parallax {
 		height: 100%;
@@ -117,9 +126,6 @@
 		padding-bottom: 1%;
 }	
 	
-	div#aviso > p {
-		display: none;
-}
 	body > div.logo > img {
 		
 		display: none;
