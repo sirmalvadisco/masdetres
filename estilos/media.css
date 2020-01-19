@@ -108,6 +108,10 @@
 
 @media (max-height: 595px) and (max-width: 991px) { 
 	
+	body > div.parallax {
+		height: 100%;
+}	
+	
 	div#aviso {
 		padding-top: 1%;
 		padding-bottom: 1%;
