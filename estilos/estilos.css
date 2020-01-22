@@ -7,7 +7,10 @@ body, html {
 .transparency {
 	opacity: .6;
 }
-
+.display-4 {
+		font-size: 2.3rem;
+}	
+	
 h2{ 
 	padding-bottom: 2%;
 	border-bottom: 1px solid #000;
@@ -91,7 +94,7 @@ body > div.parallax6 {
 }
 
 ul.second > li {
-	font-size: 150%;
+	font-size: 180%;
 	padding-left: 10%!important;
 	text-align: left!important;
 	margin-top: .7em;
