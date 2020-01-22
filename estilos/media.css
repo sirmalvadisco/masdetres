@@ -1,6 +1,14 @@
 
 @media screen and (min-width: 576px) { 
 
+	nav > .navhide {
+		margin-left: 1em;
+	}
+	
+	nav > .navbar-toggler {
+		margin-right: 1em;
+	}
+	
 	div#aviso {
 		padding-top: 2%;
 		padding-bottom: 1%;
@@ -15,13 +23,20 @@
 
 @media screen and (min-width: 768px) { 
 	
+	nav > .navhide {
+		margin-left: 3em;
+	}	
+	
+	nav > .navbar-toggler {
+		margin-right: 2em;
+	}	
 	div#aviso {
 		padding-top: 1%;
 		padding-bottom: 1%;
 }
 
 	body > div.logo > img {
-		max-width: 295px;
+		max-width: 415px;
 }
 
 	.txt {
@@ -32,13 +47,33 @@
 }
 @media screen and (min-width: 991.98px) { 
 
+	nav.bg-dark {
+		background-color: transparent!important;
+	}
+	
+	nav > a.navhide {
+		display: block;
+		margin-left: 3em!important;
+		padding-top: 0;
+	}
+	
+	.btn-dark {
+		background-color: transparent!important;
+		border: none!important;
+	    color: rgba(255,255,255,0.7)!important;
+	}
+
+	.btn-dark:hover {
+		color:#fff!important;
+	}	
+	
 	div#aviso {
 		padding-top: 1%;
 		padding-bottom: 1%;
 }	
 	
 	body > div.logo > img {
- 	/*	padding-top: 6.2em; */
+ 		padding-top: 1em;
 }
 	body > div.space {
 		padding-left: 15%!important;
@@ -67,9 +102,12 @@
 		padding-bottom: 1%;
 }
 
+	ul li.nav-item:last-child {
+		margin-right: 7em!important;
+	}
+		
 
 	body > div.logo > img {
-	    max-width: 300px;
  	/*	padding-top: 6.2em; */
 }
 	
@@ -101,6 +139,9 @@
 	nav.navbar {
 		height: 4em;
 	}
+	nav a.navhide {
+		margin-left: 7em!important;
+	}
 }
 
 
@@ -118,17 +159,20 @@
 	
 	
 	body > div.parallax {
-		height: 100%;
+		height: 95%;
 }	
 	
 	div#aviso {
 		padding-top: 1%;
 		padding-bottom: 1%;
 }	
-	
+	body > div.logo {
+		padding-top: 3.4em!important;
+	}
 	body > div.logo > img {
+		width: 25%;
+		min-width: 166.5px!important;
 		
-		display: none;
 	}
 	
 	
