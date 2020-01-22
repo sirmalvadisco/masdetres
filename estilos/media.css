@@ -57,7 +57,7 @@
 		padding-top: 0;
 	}
 	
-	.btn-dark {
+	li > .btn-dark {
 		background-color: transparent!important;
 		border: none!important;
 	    color: rgba(255,255,255,0.7)!important;
