@@ -134,12 +134,25 @@ div.footer1 > div.footer2 > ul > li > a.music-btn {
 
 div.footer1 > div.footer2 > ul > li > a.news-btn {
 	background-image: url('../icons/news.png')!important;
-	background-size: cover;
+	background-size: contain;
+	background-repeat: no-repeat;
 }
 
 div.footer1 > div.footer2 > ul > li > a.x-btn {
-	background-image: url('')!important;
+	background-image: url('../icons/hashtag.png')!important;
 	background-size: cover;
+}
+
+a.chords-btn {
+	background-image: url('../icons/chords.png')!important;
+	background-size: cover;
+	float: right;
+	position: absolute;
+	bottom: 1vw;
+	right: 6vw;
+	border: 0;
+	padding: .6vw;
+	border-radius: 0!important;
 }
 
 /*PÁGINA 2*/
@@ -200,6 +213,7 @@ form.ui-filterable {
 div.header > h2, div.header > h1, div.header > h3 {
 	position: absolute;
 	bottom: 0;
+	text-shadow: 0 0 0 transparent;
 }
 div.header > h1 {
 	font-size: .9em;
@@ -228,7 +242,7 @@ div.indexpage > ul.ui-listview > li > a.list, div.indexpage > ul.ui-listview > l
 	text-shadow: none;
 	border-color: transparent;
 	background-color: transparent;
-	font-weight: 200;
+	font-weight: 300;
     
 	padding: 1em .7em .5em .7em;
  /*	margin-bottom: .1em; */
@@ -278,6 +292,10 @@ div#club > div.ui-header {
 		text-transform: uppercase;	
 }
 
+section > p:last-of-type {
+	margin-bottom: 17vw;
+}
+
 .chords-display > p {
 		margin-bottom: 0;
 	    color: rgba(0,0,0,1);
@@ -306,4 +324,38 @@ div#club > div.ui-header {
 
 .ui-icon-loading {
 	display: none!important;
+}
+
+/*panel*/
+
+#mypanel {
+	background-color: #1A1A1A;
+}
+div.ui-panel-inner {
+	padding: 0;
+}
+div.ui-panel-inner > a.menu:first-of-type {
+	margin-top: 12vw;
+}
+
+form.ui-group-theme-d {
+	position: absolute;
+	right: 10vw;
+	bottom: 10vw;
+}
+span.ui-slider-label-b{
+	background-color: #fff;
+	color: #1a1a1a;
+}
+div.ui-panel-inner > a.menu {
+	background-color: transparent!important;
+	text-shadow: 0 0 0 transparent!important;
+	color: #fff!important;
+	border: none;
+	border-top: 1px solid #000!important;
+	border-bottom: 1px solid #000!important;
+	padding: 3vw;
+	padding-left: 6vw;
+	margin: 0;
+	text-align: left;
 }
