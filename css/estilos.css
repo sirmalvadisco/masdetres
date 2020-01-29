@@ -46,7 +46,7 @@ div.index {
 }
 
 div.indexpage {
-	background-color: #fff!important;
+	background-color: #fff;
 	
 	margin: 0;
 	padding: 0;
@@ -164,7 +164,7 @@ a.chords-btn {
 form.ui-filterable {
 	margin-block-end: 0!important;
 	margin-left: 2.1em;
-	padding: .5em 0 .7em .1em;
+	padding: .5em 0 2em .1em;
 	overflow: visible;
 	min-height: 0!important;
 }
@@ -214,6 +214,7 @@ div.header > h2, div.header > h1, div.header > h3 {
 	position: absolute;
 	bottom: 0;
 	text-shadow: 0 0 0 transparent;
+	color: #fff;
 }
 div.header > h1 {
 	font-size: .9em;
@@ -269,6 +270,10 @@ div#club > div.ui-header {
 	border-color: #D7282F!important;
 }
 
+div.ui-page-theme-b .ui-header {
+	border-color: #D7282F!important;
+}
+
 .btn-back-fixed {
 	width: 3em;
 	height: 3em;
@@ -276,6 +281,7 @@ div#club > div.ui-header {
 	position: fixed;
 	bottom: .5em;
 	right: 1em;
+	z-index: 100;
 }
 
 .chord {
@@ -331,6 +337,9 @@ section > p:last-of-type {
 #mypanel {
 	background-color: #1A1A1A;
 }
+
+
+
 div.ui-panel-inner {
 	padding: 0;
 }
@@ -338,24 +347,61 @@ div.ui-panel-inner > a.menu:first-of-type {
 	margin-top: 12vw;
 }
 
-form.ui-group-theme-d {
+div.ui-group-theme-d {
 	position: absolute;
 	right: 10vw;
 	bottom: 10vw;
 }
-span.ui-slider-label-b{
+div.ui-flipswitch{
 	background-color: #fff;
 	color: #1a1a1a;
 }
+
+div.ui-panel-inner > a.menu:first-child {
+	border-top: 1px solid rgba(0,0,0,1)!important;	
+}
+
 div.ui-panel-inner > a.menu {
 	background-color: transparent!important;
 	text-shadow: 0 0 0 transparent!important;
-	color: #fff!important;
 	border: none;
-	border-top: 1px solid #000!important;
-	border-bottom: 1px solid #000!important;
-	padding: 3vw;
-	padding-left: 6vw;
+	border-bottom: 1px solid rgba(0,0,0,1)!important;
+	padding: 3.3vw;
+	padding-left: 8vw;
+	color: #fff!important;
+	font-weight: 300;
 	margin: 0;
 	text-align: left;
+}
+
+/*BLACK MODE*/
+
+.black-mode {
+	background-color: #1A1A1A!important;
+	text-shadow: 0 0 0 transparent;
+}
+
+.red-mode {
+	background-color: #D7282F!important;
+	text-shadow: 0 0 0 transparent;
+}
+
+
+div.indexpage > ul.ui-listview > li > a.list-black-mode {
+	color: #fff!important;
+	border-bottom: 1px solid rgba(255,255,255,0.4);
+}
+
+div.indexpage > ul.ui-listview > li > a.list-black-mode:hover {
+	color: #1A1A1A!important;
+	background-color: rgba(255,255,255,1)!important;
+}
+
+.letter-black-mode {
+	color: rgba(255,255,255,0.9)!important;
+}
+
+.btn-black-mode {
+	border-color: transparent!important;
+	background-color: #fff!important;
 }
