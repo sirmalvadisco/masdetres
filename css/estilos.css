@@ -32,9 +32,8 @@ div > a.sinfondo {
 }
 
 div.index {
-	background-image: linear-gradient(to bottom,rgba(30, 42, 57,.7) 0,rgba(10, 11, 12,.6) 100%),url("../img/IMG_37302.jpg");
+	background-image: linear-gradient(to bottom,rgba(30, 42, 57,.3) 0,rgba(10, 11, 12,.4) 100%),url("../img/IMG_37302.jpg");
 	background-size: cover;
-	
 	margin: 0;
 	padding: 0;
 	height: 99.9%!important;
@@ -46,18 +45,18 @@ div.index {
 }
 
 div.indexpage {
-	background-color: #fff;
-	
+	background-color: #fff;	
 	margin: 0;
 	padding: 0;
 	height: 99.9%;
 	width: 100%!important;
+	transition:background 1s!important;
 }
 
 
 div.index > img {
 	width: 77%;
-	padding: 50% 0 0 2%;
+	padding: 30vh 0 0 2%;
 }
 
 .ui-icon-myicon:after {
@@ -85,24 +84,16 @@ div.index > a.masde-btn, div.index > a.conquis-btn {
 	font-weight: 500;
 } 
 div.index > a.masde-btn {
-	margin: 20% auto 0 auto;
-	border-color: transparent;
+	margin: 10vh auto 0 auto;
+	border-color: transparent!important;
 }
 div.index > a.conquis-btn {
 	margin: 4% auto 0 auto;
-	background-color: #D7282F;
-	color: #fff;
-	border-color: transparent;
-}
-div.index > a.conquis-btn:hover, div.index > a.conquis-btn:active, div.index > a.conquis-btn:visited {
-	background-color: #EA2432;
-	color: #fff;
-	border-color: transparent;
 }
 
 /* FOOTER */
 div.footer1 {
-	background-color: #fff!important;
+	background-color: #200233!important;
 }
 
 div.footer1 > div.footer2 > ul > li {
@@ -159,6 +150,9 @@ a.chords-btn {
 
 .ui-header {
 	box-sizing: border-box;
+	/* box-shadow: 0px .2px .3em #000; */
+	background-color: transparent!important;
+	border-color: transparent!important;
 }
 
 form.ui-filterable {
@@ -234,7 +228,7 @@ div.indexpage > ul.ui-listview {
     list-style-type: decimal;
 	
 	width: 90%;
-	margin: .4em auto 0 auto;
+	margin: 0 auto 0 auto;
 	border-radius: 0;
 }
 
@@ -266,15 +260,12 @@ div.indexpage > ul.ui-listview > li > a.ui-btn-icon-right:after {
 
 
 /*PÁGINA 3*/
-div#club > div.ui-header {
-	border-color: #D7282F!important;
-}
 
 div.ui-page-theme-b .ui-header {
-	border-color: #D7282F!important;
+	/* border-color: #D7282F!important; */
 }
 
-.btn-back-fixed {
+div.body > .btn-back-fixed {
 	width: 3em;
 	height: 3em;
 	border-radius: 1.5em!important;
@@ -335,7 +326,10 @@ section > p:last-of-type {
 /*panel*/
 
 #mypanel {
-	background-color: #1A1A1A;
+	/* background-color: #1A1A1A; */	
+	background-color: #200233;
+	border-color: transparent!important;
+	transition:background 2s; 
 }
 
 
@@ -367,11 +361,15 @@ div.ui-panel-inner > a.menu {
 	border: none;
 	border-bottom: 1px solid rgba(0,0,0,1)!important;
 	padding: 3.3vw;
-	padding-left: 8vw;
+	padding-left: 15vw;
 	color: #fff!important;
 	font-weight: 300;
 	margin: 0;
 	text-align: left;
+}
+
+div.ui-panel-inner > a.ui-btn-icon-left:after {
+	left: 6vw;
 }
 
 /*BLACK MODE*/
@@ -379,6 +377,7 @@ div.ui-panel-inner > a.menu {
 .black-mode {
 	background-color: #1A1A1A!important;
 	text-shadow: 0 0 0 transparent;
+	transition: all 2s ease-in-out;
 }
 
 .red-mode {

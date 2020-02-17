@@ -12,17 +12,18 @@ $('a.active-chords').click(function() {
  $("#US_toggle").click(function(){      
       if($("#US_toggle .ui-flipswitch").hasClass('ui-flipswitch-active')){  
 		$("div.ui-content").addClass('black-mode');
-		$("div.conquistadores").children().removeClass('black-mode');
-        $("div.conquistadores").children().addClass('red-mode');
+        $("div.conquistadores").addClass('black-mode');
 		$("a.list, a.listcqs").addClass('list-black-mode');
 		$("p, span.chord").addClass('letter-black-mode');
-		$("a.btn-back-fixed").addClass('btn-black-mode ui-alt-icon');  
+		$("a.btn-back-fixed").addClass('btn-black-mode ui-alt-icon');
+		$("div#mypanel").addClass('black-mode');
       }else{
         $("div.ui-content").removeClass('black-mode');
-		$("div.conquistadores").children().removeClass('red-mode');
+		$("div.conquistadores").removeClass('black-mode');
 		$("a.list, a.listcqs").removeClass('list-black-mode');
 		$("p, span.chord").removeClass('letter-black-mode');
-		$("a.btn-back-fixed").removeClass('btn-black-mode ui-alt-icon'); 
+		$("a.btn-back-fixed").removeClass('btn-black-mode ui-alt-icon');
+		$("div#mypanel").removeClass('black-mode');
       }
     });
 

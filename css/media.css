@@ -1,0 +1,60 @@
+@charset "utf-8";
+/* CSS Document */
+
+@media only screen and (orientation: landscape) {
+	div.index > img {
+		width: 45vw;
+		padding: 16vw 0 0 7vw;
+		float: left;
+	}
+	div.index > a.masde-btn {
+		margin: 19vw auto 0 auto;
+	}
+	div.index > a.masde-btn, div.index > a.conquis-btn {
+		width: 17vw;
+		text-align: left;
+		padding: 1.5vw 0 1.5vw 7vw!important;
+		font-weight: 500;
+		font-size: 1.4em;
+	}
+	div.index {
+		background-image: linear-gradient(to bottom,rgba(30, 42, 57,.3) 0,rgba(10, 11, 12,.4) 100%),url("../img/landscape 2.png");
+		background-size: cover;
+	}
+	div.index > a.conquis-btn {
+		margin: 2vw auto 0 auto;
+	}
+	.header {
+		/* margin-top: 10%; */
+		height: 130px;
+	}
+	div.header > h1 {
+		padding: .3em 0 0 6vw !important;
+	}
+	div.header > h3 {
+		padding: .3em 0 .25em 6vw !important;
+
+	}
+	a.chords-btn {
+		right: 8vw;
+	}
+	section {
+		padding: 0 3vw 0 3vw;
+	}
+	.chords-display > p {
+		font-size: 2vw;
+	}
+	div.ui-panel-inner > a.menu:first-of-type {
+		margin-top: 0vw;
+	}
+	div.ui-panel-inner > a.menu {
+		padding: 1.7vw;
+		padding-left: 10vw;
+		text-align: left;
+	}
+	div.ui-group-theme-d {
+		position: absolute;
+		right: 6vw;
+		bottom: 2vw;
+	}
+}
